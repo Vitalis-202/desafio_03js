@@ -1,0 +1,72 @@
+/* Normalización de estilos */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    gap:10px;
+    
+}
+
+/* Ejercicio #01 */
+.ejercicio_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img_ej1 {
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+}
+/* Ejercicio #02 */
+.ejercicio_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards_ej2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img_ej2 {
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+}
+/* Ejercicio #03 */
+.ejercicio_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+/* Estilo boton */
+.btn {
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
